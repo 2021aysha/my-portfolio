@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/boy.png";
+import woman from "../../img/woman.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -46,20 +46,21 @@ const Intro = () => {
       </div>
       {/* right image side */}
       <div className="i-right">
-        <img src={Vector1} alt="" />
-        <img src={Vector2} alt="" />
-        <img src={boy} alt="" />
+        {/* <img src={Vector1} alt="" />
+        <img width={"760px"} src={Vector2} alt="" /> */}
+        <img src={woman} alt="" />
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}
-          whileInView={{ left: "-24%" }}
+          whileInView={{ left: "-15%" }}
           transition={transition}
+          width={"30%"}
           src={glassesimoji}
           alt=""
         />
 
         <motion.div
-          initial={{ top: "-4%", left: "74%" }}
+          initial={{ top: "-12%", left: "74%" }}
           whileInView={{ left: "68%" }}
           transition={transition}
           className="floating-div"
@@ -69,7 +70,7 @@ const Intro = () => {
 
         {/* animation */}
         <motion.div
-          initial={{ left: "9rem", top: "18rem" }}
+          initial={{ left: "9rem", top: "20rem" }}
           whileInView={{ left: "0rem" }}
           transition={transition}
           className="floating-div"
