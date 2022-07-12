@@ -32,3 +32,12 @@
     margin-bottom: 10px;
     color: var(--gray);
 }
+
+@media screen and (max-width: 480px) {
+    .experiences-section {
+        margin: 2.5rem auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+}
