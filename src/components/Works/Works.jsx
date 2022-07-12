@@ -7,7 +7,7 @@ import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import {Link} from 'react-scroll'
+import { Link } from "react-scroll";
 const Works = () => {
   // context
   const theme = useContext(themeContext);
@@ -24,16 +24,13 @@ const Works = () => {
             Works for All these
           </span>
           <span>Brands & Clients</span>
-          <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+          <span>
+            I don't stick to one industry,
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            I like to keep my work as varied as possible.
             <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
-          </spane>
+            It helps me do new things and keeps me sharp
+          </span>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>
@@ -53,21 +50,23 @@ const Works = () => {
           transition={{ duration: 3.5, type: "spring" }}
           className="w-mainCircle"
         >
-          <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+          <div>
+            <a className="w-secCircle" href="/">
+              <img src={Upwork} alt="" />
+            </a>
           </div>
-          <div className="w-secCircle">
+          <a href="/" className="w-secCircle">
             <img src={Fiverr} alt="" />
-          </div>
-          <div className="w-secCircle">
+          </a>
+          <a href="/" className="w-secCircle">
             <img src={Amazon} alt="" />
-          </div>{" "}
-          <div className="w-secCircle">
+          </a>{" "}
+          <a href="/" className="w-secCircle">
             <img src={Shopify} alt="" />
-          </div>
-          <div className="w-secCircle">
+          </a>
+          <a href="/" className="w-secCircle">
             <img src={Facebook} alt="" />
-          </div>
+          </a>
         </motion.div>
         {/* background Circles */}
         <div className="w-backCircle blueCircle"></div>
