@@ -1,0 +1,34 @@
+.my-exp {
+    color: var(--yellow);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.experiences-section {
+    margin: 2.5rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.ex-name {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.exp-title {
+    color: var(--orange);
+    font-size: 1.0rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.job-role>li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: var(--gray);
+}
