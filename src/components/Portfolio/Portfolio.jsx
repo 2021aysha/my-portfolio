@@ -6,6 +6,7 @@ import "swiper/css";
 import project1 from "../../img/project-2.png";
 import project2 from "../../img/project-1.png";
 import project3 from "../../img/project-3.png";
+import project4 from "../../img/project-4.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -25,10 +26,10 @@ const Portfolio = () => {
         breakpoints={{
           0: {
             slidesPerView: 1,
-            spaceBetween: 30,
+            spaceBetween: 40,
           },
           480: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 50,
           },
           768: {
@@ -53,6 +54,9 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={project3} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={project4} alt="" />
         </SwiperSlide>
         {/* <SwiperSlide>
           <img src={HOC} alt="" />

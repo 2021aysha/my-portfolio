@@ -1,20 +1,29 @@
 import React from "react";
 import "./Footer.css";
 import Wave from "../../img/wave.png";
-import Insta from "@iconscout/react-unicons/icons/uil-instagram";
-import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
-import Gitub from "@iconscout/react-unicons/icons/uil-github";
+import Github from "../../img/github.png";
+import LinkedIn from "../../img/linkedin.png";
+import Twitter from "../../img/twitter.png";
 
 const Footer = () => {
   return (
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="f-content">
-        <span>Zainkeepscode@gmail.com</span>
-        <div className="f-icons">
-          <Insta color="white" size={"3rem"} />
-          <Facebook color="white" size={"3rem"} />
-          <Gitub color="white" size={"3rem"} />
+        <span>baysha2014@gmail.com </span>
+        <div style={{ marginTop: "0px" }} className="i-icons">
+          <a href="https://github.com/2021aysha" target="_blank">
+            <img width={"128px"} src={Github} alt="" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/aysha-b-2b4b0561/"
+            target="_blank"
+          >
+            <img width={"108px"} height={"108px"} src={LinkedIn} alt="" />
+          </a>
+          <a href="https://twitter.com/home" target="_blank">
+            <img width={"108px"} src={Twitter} alt="" />
+          </a>
         </div>
       </div>
     </div>
