@@ -32,11 +32,12 @@
 }
 
 .portfolio-slider .swiper-slide {
-  width: 20rem;
+  max-width: 20rem;
 }
 
 .portfolio img {
-  width: 19rem;
+  max-width: 19rem;
+
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
   border-radius: 19px;
 }

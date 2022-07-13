@@ -11,6 +11,7 @@ import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
 import Experiences from "./components/Experiences/Experiences";
+import Skills from "./components/Skills/Skills";
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -25,6 +26,7 @@ function App() {
       <Navbar />
       <Intro />
       <Services />
+      <Skills />
       <Experiences />
       {/* <Experience /> */}
       <Works />
