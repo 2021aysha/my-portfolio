@@ -6,10 +6,6 @@ import "swiper/css";
 import project1 from "../../img/project-2.png";
 import project2 from "../../img/project-1.png";
 import project3 from "../../img/project-3.png";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
